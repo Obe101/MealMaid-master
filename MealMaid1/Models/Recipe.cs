@@ -21,6 +21,7 @@ namespace MealMaid.Models
         /// <summary>
         /// List of ingredients required for the recipe
         /// </summary>
+
         public List<Ingredients> IngredList { get; set; }
 
         /// <summary>
