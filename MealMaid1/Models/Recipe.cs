@@ -18,6 +18,11 @@ namespace MealMaid.Models
         /// The name of the recipe
         /// </summary>
         public string Title { get; set; }
+        /// <summary>
+        /// List of ingredients required for the recipe
+        /// </summary>
+
+        public List<Ingredients> IngredList { get; set; }
 
         /// <summary>
         /// Category the recipe falls under
